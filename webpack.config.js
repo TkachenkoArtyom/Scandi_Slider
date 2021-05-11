@@ -5,7 +5,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const path = require("path");
 
 module.exports = {
-  mode: process.env.NODE_ENV || "development",
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "dist"),
@@ -30,7 +29,7 @@ module.exports = {
       },
       {
           test: /\.(css|scss)$/,
-          use: ["style-loader", "css-loader"],
+          use: ["style-loader", "css-loader", "sass-loader"],
       },
       { 
           test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,

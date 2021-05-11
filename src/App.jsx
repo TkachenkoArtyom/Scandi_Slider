@@ -1,13 +1,9 @@
-import React from 'react'
-import Slide from './components/Slide/Slide'
+import React from 'react';
+import './App.scss';
+import Carousel from './components/Carousel';
 
-const App = () => {
-  return (  
-    <div>
-        <h1>It's the main title!</h1>
-        <Slide/>
-    </div>
-  );
+const App = ({state}) => {
+  return <Carousel state={state} />
 }
  
 export default App;

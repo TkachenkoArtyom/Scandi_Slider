@@ -1,9 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import state from './state/state';
 
-import './main.css'
+const appElement = document.getElementById('app');
 
-const appElement = document.getElementById('app')
-
-ReactDOM.render(<App/>, appElement)
+ReactDOM.render(<App state={ state }/>, appElement);
