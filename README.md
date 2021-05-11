@@ -3,10 +3,10 @@
 - Scss
 - Webpack 5
 
-## Запуск 
-- клонируем репозиторий
-- если не установлен `node`, скачиваем и устанавливаем - https://nodejs.org/en/
-- отрываем терминал, заходим в папку склонированного репозитория
-- пишем в терминале `npm install`
-- далее `npm start`
-- приложение должно успешно открыться в браузере по умолчанию на http://localhost:9000/
+## Install 
+- сlone the repository
+- if you don't have `node`, you must install it - https://nodejs.org/en/
+- open the folder with cloned repository
+- write in terminal `npm install`
+- after that write `npm start
+- application must be opened successfully in browser on 9000 port - http://localhost:9000/
